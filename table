@@ -1,0 +1,11 @@
+select * from TBL_CUSTOMER_GRPD;
+insert into TBL_CUSTOMER_GRPD values('C101','ABC','LAS','ABC@d.com',9775576986,'a1','a2','temple',721153,to_date('12-DEC-2015'),null,'',null,'','TRUE','rtry','');
+insert into TBL_CUSTOMER_GRPD values('C9','ABC','LAS','AhC@d.com',9775576886,'a1','a2','temple',721153,to_date('12-DEC-2015'),null,'',null,'','TRUE','rtry','');
+select sysdate from dual;
+select SEQ_CUSTOMER_GRPD.nextVal from dual;
+Create sequence SEQ_CUSTOMER_GRPD
+start with 100
+increment by 1
+
+insert into TBL_PINCODE_GRPD values(721153,'Daspur','West Bengal');
+select * from TBL_PINCODE_GRPD;
